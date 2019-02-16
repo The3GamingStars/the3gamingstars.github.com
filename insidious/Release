@@ -1,0 +1,16 @@
+Origin: rootlessJB repo
+Label: rootlessJB repo
+Suite: stable
+Version: 1.0
+Codename: rjb
+Architectures: iphoneos-arm
+Components: main
+Description: Working tweaks for rootlessJB to be installed by Insidious
+Origin: Insidious Repo
+Label: Insidious Repo
+Suite: stable
+Version: 1.0
+Codename: rjb
+Architectures: iphoneos-arm
+Components: main
+Description: Tweaks working with insidious on rootlessJB
