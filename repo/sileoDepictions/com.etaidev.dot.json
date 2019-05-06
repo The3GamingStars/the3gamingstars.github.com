@@ -1,0 +1,30 @@
+{
+    "minVersion": "0.1",
+    "headerImage": "https://image.flaticon.com/icons/svg/56/56969.svg",
+    "tabs": [{
+        "tabname": "Details",
+        "views": [
+            {
+                "markdown": "## Dots\nTest Package",
+                "class": "DepictionMarkdownView"
+            },
+            {
+                "itemCornerRadius": 9,
+                "itemSize": "{187.5, 406}",
+                "screenshots": [
+                    {
+                        "fullSizeURL": "http://cdn.iphonehacks.com/wp-content/uploads/2019/04/Chimera-jailbreak.png",
+                        "accessibilityText": "Screenshot",
+                        "url": "http://cdn.iphonehacks.com/wp-content/uploads/2019/04/Chimera-jailbreak.png"
+                    },
+                    {
+                        "fullSizeURL": "http://getsileo.app/img/comp.png",
+                        "accessibilityText": "Screenshot",
+                        "url": "http://getsileo.app/img/comp.png"
+                    }
+                ]
+            }
+        ]
+    }],
+    "tintColor": "#074fc1"
+}
