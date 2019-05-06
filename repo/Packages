@@ -7,7 +7,7 @@ Maintainer: EtaiDev
 Author: EtaiDev
 Section: Themes
 Depiction: https://the3gamingstars.github.io/repo/depictions/com.etaidev.dots.html
-SileoDepiction: https://repo.dynastic.co/sileo-depiction/68292503631036416/
+SileoDepiction: https://the3gamingstars.github.io/repo/sileodepictions/com.etaidev.dots.json
 Depends: com.anemonetheming.anemone
 Filename: debs/com.etaidev.Dots_1.0.deb
 Size: 0
