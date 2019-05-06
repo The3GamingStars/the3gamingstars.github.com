@@ -6,8 +6,8 @@ Description: testing
 Maintainer: EtaiDev
 Author: EtaiDev
 Section: Themes
-Depiction: depictions/com.etaidev.dots.html
-SileoDepiction: sileoDepictions/com.etaidev.dots.json
+Depiction: https://the3gamingstars.github.io/repo/depictions/com.etaidev.dots.html
+SileoDepiction: https://the3gamingstars.github.io/repo/sileoDepictions/com.etaidev.dots.json
 Depends: com.anemonetheming.anemone
 Filename: debs/com.etaidev.Dots_1.0.deb
 Size: 0
