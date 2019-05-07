@@ -1,0 +1,65 @@
+<html>
+<body>
+    <p> Welcome to depictiongen beta 1. Leave any of the titles, screenshots or descriptions blank if you do not want that specific item.</p>
+
+
+    Header Image Url: <input type="text" id="HeaderURL" value=""> <br>
+    Tint color hex code: <input type="text" id="Tint" value=""> <br>
+    Title before screenshots: <input type="text" id="Title" value=""> <br>
+    Screenshot 1: <input type="text" id="Shot1" value=""> <br>
+    Screenshot 2: <input type="text" id="Shot2" value=""> <br>
+    Screenshot 3: <input type="text" id="Shot3" value=""> <br>
+    Screenshot 4: <input type="text" id="Shot4" value=""> <br>
+    Screenshot 5: <input type="text" id="Shot5" value=""> <br>
+    Description right after screenshots: <input type="text" id="Description1" value=""> <br>
+    Subtitle: <input type="text" id="Subtitle1" value=""> <br>
+    Description : <input type="text" id="Description2" value=""> <br>
+    Subtitle: <input type="text" id="Subtitle2" value=""> <br>
+    Description : <input type="text" id="Description3" value=""> <br>
+    Subtitle: <input type="text" id="Subtitle3" value=""> <br>
+    Description : <input type="text" id="Description4" value=""> <br>
+    These next boxes are required <br>
+    Latest Version: <input type="text" id="LatestVer" value=""> <br>
+    When was the latest version released: <input type="text" id="Released" value=""> <br>
+    Price (put FREE or $0.00 for a free package): <input type="text" id="Price" value=""> <br>
+    Developer of the tweak: <input type="text" id="Dev" value=""> <br>
+    Tweak Website (not required): <input type="text" id="TweakWebsite" value=""> <br>
+    Latest tweak version changes (do \n- to make a bullet point): <input type="text" id="Changes" value=""> <br>
+    Footer: <input type="text" id="Footer" value=""> <br>
+
+    Copy the json after the Make Depiction button and that is your native sileo depiction <br>
+    <button onclick="myFunction()">Make Depiction</button>
+
+
+    <p id="demo"></p>
+
+    <script>
+    function myFunction() {
+    var headerurl = document.getElementById("HeaderURL").value;
+    var title = document.getElementById("Title").value;
+    var tint = document.getElementById("Tint").value;
+    var screen1 = document.getElementById("Shot1").value;
+    var screen2 = document.getElementById("Shot2").value;
+    var screen3 = document.getElementById("Shot3").value;
+    var screen4 = document.getElementById("Shot4").value;
+    var screen5 = document.getElementById("Shot5").value;
+    var description1 = document.getElementById("Description1").value;
+    var description2 = document.getElementById("Description2").value;
+    var description3 = document.getElementById("Description3").value;
+    var description4 = document.getElementById("Description4").value;
+    var subtitle1 = document.getElementById("Subtitle1").value;
+    var subtitle2 = document.getElementById("Subtitle2").value;
+    var subtitle3 = document.getElementById("Subtitle3").value;
+    var latestver = document.getElementById("LatestVer").value;
+    var released = document.getElementById("Released").value;
+    var dev = document.getElementById("Dev").value;
+    var price = document.getElementById("Price").value;
+    var website = document.getElementById("TweakWebsite").value;
+    var changes = document.getElementById("Changes").value;
+    var footer = document.getElementById("Footer").value;
+    var depiction = '{"minVersion":"0.1","headerImage":"' + headerurl + '","tintColor":"' + tint + '","tabs":[{"tabname":"Details","views":[{"title":"' + title + '","useBoldText":true,"useBottomMargin":false,"class":"DepictionSubheaderView"},{"itemCornerRadius":6,"itemSize":"{160, 346.4533333333333}","screenshots":[{"accessibilityText":"Screenshot","url":"' + screen1 + '","fullSizeURL":"' + screen1 +'},{"accessibilityText":"Screenshot","url":"' + screen2 + '","fullSizeURL":"' + screen2 +'},{"accessibilityText":"Screenshot","url":"' + screen3 + '","fullSizeURL":"' + screen3 + '"},{"accessibilityText":"Screenshot","url":"' + screen4 + '","fullSizeURL":"' + screen4 + '"},{"accessibilityText":"Screenshot","url":"' + screen5 + '","fullSizeURL":"' + screen5 + '"}],"ipad":{"itemCornerRadius":9,"itemSize":"{320, 692.9066666666666}","screenshots":[{"accessibilityText":"Screenshot","url":"' + screen1 + '","fullSizeURL":"' + screen1 + '"},{"accessibilityText":"Screenshot","url":"' + screen2 + '","fullSizeURL":"' + screen2 + '"},{"accessibilityText":"Screenshot","url":"' + screen3 + '","fullSizeURL":"' + screen3 + '"},{"accessibilityText":"Screenshot","url":"' + screen4 + '","fullSizeURL":"' + screen4 + '"},{"accessibilityText":"Screenshot","url":"' + screen5 + '","fullSizeURL":"' + screen5 + '"}],"class":"DepictionScreenshotView"},"class":"DepictionScreenshotsView"},,"class":"DepictionScreenshotView"},"class":"DepictionScreenshotsView"},{"markdown":"' + description1 + ' \n\n### ' + subtitle1 + '\n\n' + description2 + ' \n\n### ' + subtitle2 + ' \n\n' + description3 + ' \n\n### ' + subtitle3 + ' \n\n' + description4 + '","useSpacing":true,"class":"DepictionMarkdownView"},{"class":"DepictionSeparatorView"},{"title":"Latest Version","class":"DepictionHeaderView"},{"title":"Version","text":"' + latestver + '","class":"DepictionTableTextView"},{"title":"Released","text":"' + released + '","class":"DepictionTableTextView"},{"title":"Price","text":"' + price + '","class":"DepictionTableTextView"},{"class":"DepictionSeparatorView"},{"title":"Tweak Website","action":"' + website + '","class":"DepictionTableButtonView"},{"spacing":12,"class":"DepictionSpacerView"},{"title":"Developer","text":"' + dev + '","class":"DepictionTableTextView"},{"markdown":"<small style=\"color: #aaa; font-size: 8pt;\">All prices shown are in American Dollars (USD).</small><style>body { text-align: center; }</style>","useRawFormat":true,"class":"DepictionMarkdownView"},{"URL":"' + footer + '","width":44,"height":27,"alignment":1,"cornerRadius":0,"class":"DepictionImageView"},{"spacing":20,"class":"DepictionSpacerView"}],"class":"DepictionStackView"},{"tabname":"Changelog","views":[{"title":"' + latestver + '","useBoldText":true,"useBottomMargin":true,"class":"DepictionSubheaderView"},{"markdown":"' + changes + '","useSpacing":false,"class":"DepictionMarkdownView"},{"markdown":"<small style=\"color: #999; margin-top: -8px;\">' + released + '</small>","useRawFormat":true,"class":"DepictionMarkdownView"}],"class":"DepictionStackView"}],"class":"DepictionTabView"}';
+    document.getElementById("demo").innerHTML = depiction;
+    }
+    </script>
+</body>
+</html>
