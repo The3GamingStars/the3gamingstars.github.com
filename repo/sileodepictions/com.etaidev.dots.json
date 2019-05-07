@@ -1,1 +1,30 @@
-{"minVersion":"0.1","headerImage":"https://repo.dynastic.co/data/static/version/174906684227977216/174906684597075968?size=1000","tintColor":"#7887f7","tabs":[{"tabname":"Details","views":[{"title":"Test","useBoldText":true,"useBottomMargin":false,"class":"DepictionSubheaderView"},{"itemCornerRadius":6,"itemSize":"{160, 346.4533333333333}","screenshots":[{"accessibilityText":"Screenshot","url":"https://repo-cdn.dynastic.co/87966724552392705.3a0a6aca8197f4f398e78aba28d45801-750?size=480","fullSizeURL":"https://repo.dynastic.co/data/static/version/174906684227977216/174906684639019008"},{"accessibilityText":"Screenshot","url":"https://repo-cdn.dynastic.co/87966743447732225.2b9927c32e7989c9593af3b9af758181-750?size=480","fullSizeURL":"https://repo.dynastic.co/data/static/version/174906684227977216/174906684639019009"},{"accessibilityText":"Screenshot","url":"https://repo-cdn.dynastic.co/87966754386477057.b281d0d686aa134d7efd00dd083f7c16-750?size=480","fullSizeURL":"https://repo.dynastic.co/data/static/version/174906684227977216/174906684639019010"},{"accessibilityText":"Screenshot","url":"https://repo-cdn.dynastic.co/87966766088585217.23a82791121436693f746f9664adf6f6-750?size=480","fullSizeURL":"https://repo.dynastic.co/data/static/version/174906684227977216/174906684639019011"},{"accessibilityText":"Screenshot","url":"https://repo-cdn.dynastic.co/87966782144380929.407f08479bbdf88d9255967be043b264-750?size=480","fullSizeURL":"https://repo.dynastic.co/data/static/version/174906684227977216/174906684639019012"}],"ipad":{"itemCornerRadius":9,"itemSize":"{320, 692.9066666666666}","screenshots":[{"accessibilityText":"Screenshot","url":"https://repo-cdn.dynastic.co/87966724552392705.3a0a6aca8197f4f398e78aba28d45801-750?size=640","fullSizeURL":"https://repo.dynastic.co/data/static/version/174906684227977216/174906684639019008"},{"accessibilityText":"Screenshot","url":"https://repo-cdn.dynastic.co/87966743447732225.2b9927c32e7989c9593af3b9af758181-750?size=640","fullSizeURL":"https://repo.dynastic.co/data/static/version/174906684227977216/174906684639019009"},{"accessibilityText":"Screenshot","url":"https://repo-cdn.dynastic.co/87966754386477057.b281d0d686aa134d7efd00dd083f7c16-750?size=640","fullSizeURL":"https://repo.dynastic.co/data/static/version/174906684227977216/174906684639019010"},{"accessibilityText":"Screenshot","url":"https://repo-cdn.dynastic.co/87966766088585217.23a82791121436693f746f9664adf6f6-750?size=640","fullSizeURL":"https://repo.dynastic.co/data/static/version/174906684227977216/174906684639019011"},{"accessibilityText":"Screenshot","url":"https://repo-cdn.dynastic.co/87966782144380929.407f08479bbdf88d9255967be043b264-750?size=640","fullSizeURL":"https://repo.dynastic.co/data/static/version/174906684227977216/174906684639019012"}],"class":"DepictionScreenshotView"},"class":"DepictionScreenshotsView"},{"markdown":"Test ### Test test ### test test ### test test","useSpacing":true,"class":"DepictionMarkdownView"},{"class":"DepictionSeparatorView"},{"title":"Latest Version","class":"DepictionHeaderView"},{"title":"Version","text":"1.0.0","class":"DepictionTableTextView"},{"title":"Released","text":"2019","class":"DepictionTableTextView"},{"title":"Price","text":"FREE","class":"DepictionTableTextView"},{"class":"DepictionSeparatorView"},{"title":"Tweak Website","action":"the3gamingstars.github.io","class":"DepictionTableButtonView"},{"spacing":12,"class":"DepictionSpacerView"},{"title":"Developer","text":"EtaiDev","class":"DepictionTableTextView"},{"markdown":"All prices shown are in American Dollars (USD).","useRawFormat":true,"class":"DepictionMarkdownView"},{"URL":"https://assets.dynastic.co/brand/img/footer@2x.png","width":44,"height":27,"alignment":1,"cornerRadius":0,"class":"DepictionImageView"},{"spacing":20,"class":"DepictionSpacerView"}],"class":"DepictionStackView"},{"tabname":"Changelog","views":[{"title":"1.0.0","useBoldText":true,"useBottomMargin":true,"class":"DepictionSubheaderView"},{"markdown":"Nothing new","useSpacing":false,"class":"DepictionMarkdownView"},{"markdown":"2019","useRawFormat":true,"class":"DepictionMarkdownView"}],"class":"DepictionStackView"}],"class":"DepictionTabView"}
+{
+    "minVersion": "0.1",
+    "headerImage": "https://image.flaticon.com/icons/svg/56/56969.svg",
+    "tabs": [{
+        "tabname": "Details",
+        "views": [
+            {
+                "markdown": "## Dots\nTest Package",
+                "class": "DepictionMarkdownView"
+            },
+            {
+                "itemCornerRadius": 9,
+                "itemSize": "{187.5, 406}",
+                "screenshots": [
+                    {
+                        "fullSizeURL": "https://repo.dynastic.co/data/static/version/174906684227977216/174906684639019011",
+                        "accessibilityText": "Screenshot",
+                        "url": "https://repo-cdn.dynastic.co/87966724552392705.3a0a6aca8197f4f398e78aba28d45801-750?size=640"
+                    },
+                    {
+                        "fullSizeURL": "https://repo.dynastic.co/data/static/version/174906684227977216/174906684639019011",
+                        "accessibilityText": "Screenshot",
+                        "url": "https://repo-cdn.dynastic.co/87966724552392705.3a0a6aca8197f4f398e78aba28d45801-750?size=640"
+                    }
+                ]
+            }
+        ]
+    }],
+    "tintColor": "#074fc1"
+}
