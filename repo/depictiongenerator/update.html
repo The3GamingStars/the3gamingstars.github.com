@@ -1,0 +1,87 @@
+<html>
+<body>
+    <p> Welcome to changeloggen beta 1. you must of used depictiongen before this or it may not work</p>
+
+
+    Sileo depiction JSON: <input type="text" id="SileoJSON" value=""> <br>
+    New update version: <input type="text" id="latestver" value=""> <br>
+    New update release date: <input type="text" id="release" value=""> <br>
+    New update changelog: <input type="text" id="changelog" value=""> <br>
+
+    The json will be copied to your clipboard after you click the Make Depiction button and that is your native sileo depiction <br>
+    <button onclick="myFunction()">Make Depiction</button>
+    <input type="text" value="" id="myInput">
+
+
+    <p id="demo"></p>
+
+    <script>
+    function myFunction() {
+    var sileo = document.getElementById("SileoJSON").value;
+    var latestver = document.getElementById("latestver").value;
+    var released = document.getElementById("release").value;
+    var changes = document.getElementById("changelog").value;
+    var sileon = "hey-20909";
+    var parts = sileo.split('{"tabname":"Changelog","views":[', 2);
+
+    var depicnochange = parts[0];
+    var depictionnochange = depicnochange + '{"tabname":"Changelog","views":[';
+    var depicchange  = parts[1];
+    var depictionchange = '{"class":"DepictionSeparatorView"},' + depicchange;
+    console.log(depicchange);
+
+
+    var depiction = depictionnochange + '{"title":"' + latestver + '","useBoldText":true,"useBottomMargin":true,"class":"DepictionSubheaderView"},{"markdown":"' + changes + '","useSpacing":false,"class":"DepictionMarkdownView"},{"markdown":"<small style=\\"color: #999; margin-top: -8px;\\"> Released on ' + released + '</small>","useRawFormat":true,"class":"DepictionMarkdownView"},' + depictionchange;
+    
+    // now change the latest version and latest release date
+
+
+    var partss = depiction.split('{"title":"Latest Version","class":"DepictionHeaderView"},{"title":"Version","text":"', 2);
+
+    var depicnochanges = partss[0];
+    var depictionnochanges = depicnochanges + '{"title":"Latest Version","class":"DepictionHeaderView"},{"title":"Version","text":"';
+    var depicchanges  = partss[1];
+
+    var partsss = depicchanges.split('","class":"DepictionTableTextView"},{"title":"Released","text":"', 2);
+
+    var depicnochangess = partsss[1];
+    var depictionnochangess = '","class":"DepictionTableTextView"},{"title":"Released","text":"' + depicnochangess;
+
+    var depictionchanges = depictionnochanges + latestver + depictionnochangess;
+    console.log(depictionchanges);
+        // latest date
+    var partsdate1 = depictionchanges.split('","class":"DepictionTableTextView"},{"title":"Released","text":"', 2);
+
+    var depicnochangesss = partsdate1[0];
+    var depictionnochangesss = depicnochangesss + '","class":"DepictionTableTextView"},{"title":"Released","text":"';
+    var depicchangesss  = partsdate1[1];
+
+    var partsdate2 = depicchangesss.split('","class":"DepictionTableTextView"},{"title":"Price","text":"', 2);
+
+    var depicnochangessss = partsdate2[1];
+    var depictionnochangessss = '","class":"DepictionTableTextView"},{"title":"Price","text":"' + depicnochangessss;
+
+    var depictionchangess = depictionnochangesss + released + depictionnochangessss;
+    console.log(depictionchangess);
+
+
+    var depictions = "";
+
+
+
+    document.getElementById("demo").innerHTML = depictionchangess;
+    document.getElementById("myInput").value = depictionchangess;
+    var copyText = document.getElementById("myInput");
+
+    /* Select the text field */
+    copyText.select();
+
+    /* Copy the text inside the text field */
+    document.execCommand("copy");
+
+    /* Alert the copied text */
+    alert("Copied the depiction to the clipboard. Paste it in a json file to try it out");
+    }
+    </script>
+</body>
+</html>
