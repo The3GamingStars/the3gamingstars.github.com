@@ -1,0 +1,30 @@
+
+Package: Ex: com.frostzone.helloworld
+Version: 0.0.1
+Architecture: 
+Depends: 
+Maintainer: iPwned <test@email.com>
+Filename: /com.etaidev.Dots_1.0.deb
+Size: 0
+MD5sum: d41d8cd98f00b204e9800998ecf8427e
+SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Section: Ex: Tweaks, Theme
+Description: An awesome mobile substrate tweak
+Author: iPwned <test@email.com>
+Name: Tweak name
+
+Package: Ex: com.frostzone.helloworld
+Version: 0.0.1
+Architecture: 
+Depends: 
+Maintainer: iPwned <test@email.com>
+Filename: /com.etaidev.Dots_1.0.deb
+Size: 0
+MD5sum: d41d8cd98f00b204e9800998ecf8427e
+SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Section: Ex: Tweaks, Theme
+Description: An awesome mobile substrate tweak
+Author: iPwned <test@email.com>
+Name: Tweak name

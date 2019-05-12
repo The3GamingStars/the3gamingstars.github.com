@@ -1,0 +1,8 @@
+Origin: EtaiDev Repo
+Label: EtaiDev Repo
+Suite: stable
+Version: 1.0
+Codename: etairepo
+Architectures: iphoneos-arm
+Components: main
+Description: A personal repo for EtaiDev

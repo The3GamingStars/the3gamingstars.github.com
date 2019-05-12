@@ -1,0 +1,49 @@
+
+{
+    "Packages": [
+        {
+            "package": "com.the3gamingstars.siliqua2",
+            "name": "Siliqua2",
+            "depends": "",
+            "conflicts": "",
+            "architecture": "iphoneos-arm",
+            "description": "airpods tweak",
+            "maintainer": "The3GamingStars",
+            "author": "LaughingQuoll",
+            "section": "Tweaks",
+            "icon": "https://ignition.fun/images/IgnitionIcon.png",
+            "versions": [
+                "1.0",
+            ],
+            "debs": [
+                {
+                    "2.0.1": "debs/com.laughingquoll.siliqua2_2.0.1_iphoneos-arm.deb?raw=true",
+                    "version": "2.0.1",
+                    "deb": "debs/com.laughingquoll.siliqua2_2.0.1_iphoneos-arm.deb"
+                },
+            ],
+            "installed-size": "176",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "md5sum": "9d6d302c1209356a884d8245832d4f0d",
+            "depiction": "https//repo.packix.com/package/com.laughingquoll.siliqua2",
+            "size": "12904",
+            "filename": "com.laughingquoll.siliqua2_2.0.1_iphoneos-arm.deb",
+            "tag": "purposeextension, compatible_minios10, compatible_maxios12.1.4"
+        }
+    ],
+    "Release": [
+        {
+          "Origin": "RootlessJB Tweaks",
+          "Label": "RootlessJB Tweaks",
+          "Suite": "stable",
+          "Version": "1.0",
+          "Codename": "rjbtweaks",
+          "Architectures": "iphoneos-arm",
+          "Components": "main",
+          "Description": "\"Tweaks that work with insidious.\"",
+          "Icon": "https://ignition.fun/InsidiousIcon.png",
+          "OriginalURL": "https://insidious.ignition.fun"
+        }
+    ]
+}
